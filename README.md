@@ -58,7 +58,7 @@ docker run -p 5148:80 card-validator
 ### Validate Credit Card
 
 ```
-POST /api/CreditCard/validate
+POST /api/credit-card/validate
 ```
 
 #### Request Body
