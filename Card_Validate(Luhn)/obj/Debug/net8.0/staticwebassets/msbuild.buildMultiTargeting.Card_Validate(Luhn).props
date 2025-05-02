@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\Card_Validate(Luhn).props" />
-</Project>

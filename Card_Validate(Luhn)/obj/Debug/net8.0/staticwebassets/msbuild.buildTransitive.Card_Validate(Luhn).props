@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\Card_Validate(Luhn).props" />
-</Project>
