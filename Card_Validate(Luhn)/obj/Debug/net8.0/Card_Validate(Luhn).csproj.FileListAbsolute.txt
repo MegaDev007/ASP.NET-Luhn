@@ -70,3 +70,6 @@ E:\ASP.NET-Luhn\Card_Validate(Luhn)\obj\Debug\net8.0\refint\Card_Validate(Luhn).
 E:\ASP.NET-Luhn\Card_Validate(Luhn)\obj\Debug\net8.0\Card_Validate(Luhn).pdb
 E:\ASP.NET-Luhn\Card_Validate(Luhn)\obj\Debug\net8.0\Card_Validate(Luhn).genruntimeconfig.cache
 E:\ASP.NET-Luhn\Card_Validate(Luhn)\obj\Debug\net8.0\ref\Card_Validate(Luhn).dll
+E:\ASP.NET-Luhn\Card_Validate(Luhn)\bin\Debug\net8.0\Card_Validate(Luhn).xml
+E:\ASP.NET-Luhn\Card_Validate(Luhn)\obj\Debug\net8.0\Card_Validate(Luhn).sourcelink.json
+E:\ASP.NET-Luhn\Card_Validate(Luhn)\obj\Debug\net8.0\Card_Validate(Luhn).xml
