@@ -25,7 +25,7 @@ This is an ASP.NET Core Web API application that validates credit card numbers u
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/ASP.NET-Luhn.git
+git clone https://github.com/MegaDev007/ASP.NET-Luhn.git
 cd ASP.NET-Luhn
 ```
 
