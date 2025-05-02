@@ -11,13 +11,13 @@ This is an ASP.NET Core Web API application that validates credit card numbers u
 - RESTful API design
 - Swagger/OpenAPI documentation
 - Health checks endpoint
-- Global exception handling
+- Global exception handling middleware
 - Detailed logging
 - JSON response formatting
 
 ## Prerequisites
 
-- [.NET 7.0 SDK](https://dotnet.microsoft.com/download/dotnet/7.0) or later
+- [.NET 8.0 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
 - IDE of your choice (Visual Studio, VS Code, JetBrains Rider, etc.)
 
 ## Getting Started
@@ -25,8 +25,8 @@ This is an ASP.NET Core Web API application that validates credit card numbers u
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/Credit-Card-Validator.git
-cd Credit-Card-Validator
+git clone https://github.com/yourusername/ASP.NET-Luhn.git
+cd ASP.NET-Luhn
 ```
 
 ### Build and Run
@@ -37,8 +37,12 @@ dotnet run --project Card_Validate(Luhn)/Card_Validate(Luhn).csproj
 ```
 
 The API will be available at:
-- HTTP: `http://localhost:5000`
-- HTTPS: `https://localhost:5001`
+- HTTP: `http://localhost:5148`
+- HTTPS: `https://localhost:7158`
+
+After running the application, you can access the Swagger UI at:
+- `http://localhost:5148/swagger` or
+- `https://localhost:7158/swagger`
 
 ### Docker Support
 
@@ -46,7 +50,7 @@ If you have Docker installed, you can build and run the application in a contain
 
 ```bash
 docker build -t card-validator .
-docker run -p 5000:80 card-validator
+docker run -p 5148:80 card-validator
 ```
 
 ## API Endpoints
@@ -54,14 +58,14 @@ docker run -p 5000:80 card-validator
 ### Validate Credit Card
 
 ```
-POST /api/creditcard/validate
+POST /api/CreditCard/validate
 ```
 
 #### Request Body
 
 ```json
 {
-  "cardNumber": "4111111111111111"
+  "cardNumber": "4532015112830366"
 }
 ```
 
@@ -101,6 +105,8 @@ Card_Validate(Luhn)/
 ├── Services/
 │   ├── ICreditCardValidatorService.cs  # Service interface
 │   └── LuhnValidatorService.cs   # Luhn algorithm implementation
+├── Properties/
+│   └── launchSettings.json       # Development environment settings
 ├── Program.cs                    # Application entry point and configuration
 └── appsettings.json              # Configuration settings
 ```
@@ -122,14 +128,19 @@ You can test the API using:
 
 ### Valid Test Card Numbers
 
-- Visa: `4111111111111111`
-- MasterCard: `5555555555554444`
-- American Express: `378282246310005`
-- Discover: `6011111111111117`
+- `4532015112830366` (Visa)
+- `4532 0151 1283 0366` (Visa with spaces)
+- `5555555555554444` (MasterCard)
+- `378282246310005` (American Express)
+- `6011111111111117` (Discover)
 
-## License
+## Technical Details
 
-[MIT License](LICENSE)
+- Built with .NET 8.0
+- Uses ASP.NET Core Web API
+- Implements dependency injection pattern
+- Includes comprehensive XML documentation
+- Follows RESTful API best practices
 
 ## Contributing
 
@@ -138,6 +149,10 @@ You can test the API using:
 3. Commit your changes: `git commit -am 'Add some feature'`
 4. Push to the branch: `git push origin feature/my-new-feature`
 5. Submit a pull request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 
