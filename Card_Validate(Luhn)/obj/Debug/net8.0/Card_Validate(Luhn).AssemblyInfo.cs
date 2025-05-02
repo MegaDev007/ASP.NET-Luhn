@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Card_Validate(Luhn)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d57cdc1fcd6c3d00e2322a5903277e7bd7873b07")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a495481ecdacd026e8cf8e919ef4001524959af0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Card_Validate(Luhn)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Card_Validate(Luhn)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
