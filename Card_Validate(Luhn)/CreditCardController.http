@@ -61,4 +61,4 @@ Accept: application/json
 
 {
   "cardNumber": "12345678901234567890"
-}
+} 
