@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations;
 namespace Card_Validate_Luhn.Controllers;
 
 [ApiController]
-[Route("api/[controller]")]
+[Route("api/credit-card")]
 [Produces("application/json")]
 public class CreditCardController : ControllerBase
 {

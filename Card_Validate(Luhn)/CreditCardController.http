@@ -1,7 +1,7 @@
 @Card_Validate_Luhn__HostAddress = http://localhost:5148
 
 ### Validate a valid credit card number
-POST {{Card_Validate_Luhn__HostAddress}}/api/CreditCard/validate
+POST {{Card_Validate_Luhn__HostAddress}}/api/credit-card/validate
 Content-Type: application/json
 Accept: application/json
 
@@ -10,7 +10,7 @@ Accept: application/json
 }
 
 ### Validate another valid credit card number with spaces
-POST {{Card_Validate_Luhn__HostAddress}}/api/CreditCard/validate
+POST {{Card_Validate_Luhn__HostAddress}}/api/credit-card/validate
 Content-Type: application/json
 Accept: application/json
 
@@ -19,7 +19,7 @@ Accept: application/json
 }
 
 ### Test with invalid credit card number
-POST {{Card_Validate_Luhn__HostAddress}}/api/CreditCard/validate
+POST {{Card_Validate_Luhn__HostAddress}}/api/credit-card/validate
 Content-Type: application/json
 Accept: application/json
 
@@ -28,7 +28,7 @@ Accept: application/json
 }
 
 ### Test with empty credit card number
-POST {{Card_Validate_Luhn__HostAddress}}/api/CreditCard/validate
+POST {{Card_Validate_Luhn__HostAddress}}/api/credit-card/validate
 Content-Type: application/json
 Accept: application/json
 
@@ -37,7 +37,7 @@ Accept: application/json
 }
 
 ### Test with non-digit characters
-POST {{Card_Validate_Luhn__HostAddress}}/api/CreditCard/validate
+POST {{Card_Validate_Luhn__HostAddress}}/api/credit-card/validate
 Content-Type: application/json
 Accept: application/json
 
@@ -46,7 +46,7 @@ Accept: application/json
 }
 
 ### Test with too short number
-POST {{Card_Validate_Luhn__HostAddress}}/api/CreditCard/validate
+POST {{Card_Validate_Luhn__HostAddress}}/api/credit-card/validate
 Content-Type: application/json
 Accept: application/json
 
@@ -55,7 +55,7 @@ Accept: application/json
 }
 
 ### Test with too long number
-POST {{Card_Validate_Luhn__HostAddress}}/api/CreditCard/validate
+POST {{Card_Validate_Luhn__HostAddress}}/api/credit-card/validate
 Content-Type: application/json
 Accept: application/json
 
