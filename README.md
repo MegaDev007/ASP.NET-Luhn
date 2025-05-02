@@ -150,10 +150,6 @@ You can test the API using:
 4. Push to the branch: `git push origin feature/my-new-feature`
 5. Submit a pull request
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Acknowledgments
 
 - [Luhn Algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm) on Wikipedia
