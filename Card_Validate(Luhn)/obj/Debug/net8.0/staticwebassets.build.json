@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Cwn1TNA/uU/3bRmwyM6pY+2Tm6piQgEk9C711uuwBcs=",
+  "Source": "Card_Validate(Luhn)",
+  "BasePath": "_content/Card_Validate(Luhn)",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

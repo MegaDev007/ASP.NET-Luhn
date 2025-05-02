@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Card_Validate(Luhn)", "Card_Validate(Luhn)\Card_Validate(Luhn).csproj", "{50597153-E90D-493F-A2BF-1D4B73FABD2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50597153-E90D-493F-A2BF-1D4B73FABD2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50597153-E90D-493F-A2BF-1D4B73FABD2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50597153-E90D-493F-A2BF-1D4B73FABD2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50597153-E90D-493F-A2BF-1D4B73FABD2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB74E2CC-46FB-4B89-97C1-899731C2CE74}
+	EndGlobalSection
+EndGlobal
